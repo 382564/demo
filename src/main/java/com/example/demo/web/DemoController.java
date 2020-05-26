@@ -15,4 +15,12 @@ public class DemoController {
         result.setMsg("操作成功");
         return result;
     }
+
+    @RequestMapping("/ef")
+    public Result test() {
+        Result result = new Result();
+        result.setCode(200);
+        result.setMsg("操作成功");
+        return result;
+    }
 }
